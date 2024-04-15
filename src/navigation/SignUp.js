@@ -1,23 +1,22 @@
 
-
-// HomeScreen.js
+// SignUpScreen.js
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
-const HomeScreen = ({ navigation }) => {
+const SignUp = ({ navigation }) => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home Screen</Text>
+      <Text>Sign Up Screen</Text>
       <Button
         title="Login"
         onPress={() => navigation.navigate('Login')}
       />
       <Button
-        title="Sign Up"
-        onPress={() => navigation.navigate('SignUp')}
+        title="Go to Home"
+        onPress={() => navigation.navigate('Home')}
       />
     </View>
   );
 }
 
-export default HomeScreen;
+export default SignUp;

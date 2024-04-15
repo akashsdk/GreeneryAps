@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+import LonIn from './src/screens/HomeScreen';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>akash </Text>
+      <LonIn></LonIn>
       <StatusBar style="auto" />
     </View>
   );
